@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: ;
 }
 
 .container {
@@ -37,7 +38,12 @@
 }
 
 .cards img {
-    width: 50%;
+    width: 45%;
+}
+
+.cards img:hover {
+    transform: scale(1.01);
+    transition: 150ms ease-in-out;
 }
 
 .see-all {
